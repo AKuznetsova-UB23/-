@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Цифры 99</title>
+    <style>
+        body {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            display: flex;
+            gap: 20px;
+        }
+
+        .digit {
+            display: flex;
+            flex-wrap: wrap;
+            width: 90px;
+        }
+
+        .block {
+            width: 30px;
+            height: 30px;
+            background-color: #000;
+        }
+
+        /* Первая цифра 9 */
+        .digit:first-child {
+            display: flex;
+            flex-wrap: wrap;
+            width: 90px;
+        }
+
+        .digit:first-child .block:nth-child(1),
+        .digit:first-child .block:nth-child(2),
+        .digit:first-child .block:nth-child(3),
+        .digit:first-child .block:nth-child(4),
+        .digit:first-child .block:nth-child(6),
+        .digit:first-child .block:nth-child(7),
+        .digit:first-child .block:nth-child(8),
+        .digit:first-child .block:nth-child(9),
+        .digit:first-child .block:nth-child(12),
+        .digit:first-child .block:nth-child(13),
+        .digit:first-child .block:nth-child(14),
+        .digit:first-child .block:nth-child(15) {
+            background-color: #000;
+        }
+
+        .digit:first-child .block:nth-child(5),
+        .digit:first-child .block:nth-child(10),
+        .digit:first-child .block:nth-child(11) {
+            background-color: transparent;
+        }
+
+        /* Вторая цифра 9 */
+        .digit:last-child {
+            display: flex;
+            flex-wrap: wrap;
+            width: 90px;
+        }
+
+        .digit:last-child .block:nth-child(1),
+        .digit:last-child .block:nth-child(2),
+        .digit:last-child .block:nth-child(3),
+        .digit:last-child .block:nth-child(4),
+        .digit:last-child .block:nth-child(6),
+        .digit:last-child .block:nth-child(7),
+        .digit:last-child .block:nth-child(8),
+        .digit:last-child .block:nth-child(9),
+        .digit:last-child .block:nth-child(12),
+        .digit:last-child .block:nth-child(13),
+        .digit:last-child .block:nth-child(14),
+        .digit:last-child .block:nth-child(15) {
+            background-color: #000;
+        }
+
+        .digit:last-child .block:nth-child(5),
+        .digit:last-child .block:nth-child(10),
+        .digit:last-child .block:nth-child(11) {
+            background-color: transparent;
+        }
+
+        @media screen and (min-width: 768px) {
+            .container {
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="digit">
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+        </div>
+        <div class="digit">
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+        </div>
+    </div>
+</body>
+</html>
